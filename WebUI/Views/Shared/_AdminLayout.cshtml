@@ -1,0 +1,130 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    <title>@ViewBag.Title</title>
+    <style>
+                html {
+                    position: relative;
+                    min-height: 100%;
+                }
+
+                body {
+                    /* Margin bottom by footer height */
+                    margin-bottom: 60px;
+                }
+
+                .footer {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    /* Set the fixed height of the footer here */
+                    height: 60px;
+                    line-height: 60px; /* Vertically center the text there */
+                    background-color: #f5f5f5;
+                }
+
+
+                /* Custom page CSS
+        -------------------------------------------------- */
+                /* Not required for template or sticky footer method. */
+
+                body > .container {
+                    padding: 60px px 0;
+                }
+
+                .footer > .container {
+                    padding-right: 15px;
+                    padding-left: 15px;
+                }
+
+                code {
+                    font-size: 80%;
+                }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="/Admin/Index">Адмін панель</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <div class="nav-link">@Html.ActionLink("Тури", "List", "AdminTour")</div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-link">@Html.ActionLink("Міста", "List", "AdminFormat")</div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-link">@Html.ActionLink("Замовлення", "List", "AdminOrder")</div>
+                </li>
+            </ul>
+            @*<div class="form-inline mt-2 mt-md-0">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        @Html.RouteLink("Вийти",
+                            new
+                            {
+                                controller = "User",
+                                action = "SignOut"
+                            }, new
+                            {
+                                @class = "btn btn-outline-success my-2 my-sm-0"
+                            })
+                    }
+                    else
+                    {
+                        @Html.RouteLink("Ввійти",
+                            new
+                            {
+                                controller = "User",
+                                action = "Login"
+                            }, new
+                            {
+                                @class = "btn btn-outline-success my-2 my-sm-0"
+                            })
+                    }
+
+                </div>*@
+        </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+        <br>
+        @if (TempData["message"] != null)
+        {
+            <div class="alert alert-success">@TempData["message"]</div>
+        }
+
+        @if (TempData["err-message"] != null)
+        {
+            <div class="alert alert-danger">@TempData["err-message"]</div>
+        }
+        <br>
+        <div class="row">
+            @RenderBody()
+        </div>
+
+
+    </main>
+    <br>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Варіант №2.</span>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿@model Domain.Entities.Tour
+
+<div class="card mb-3">
+    <img src="/Images/@Model.Image" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text">@Model.Description.</p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Місто</th>
+                    <th scope="col">Тип туру</th>
+                    <th scope="col">Ціна</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.Format.FormatName</td>
+                    <td>@Model.Type</td>
+                    <td><span class="badge badge-success">@Model.Price.ToString("# грн")</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="card-footer">
+        @using (Html.BeginForm("AddToCart", "Cart"))
+        {
+            <div class="pull-right">
+                @Html.HiddenFor(x => x.TourId)
+                @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+                <input type="submit" class="btn btn-outline-success" value="Бронювати квиток" />
+            </div>
+        }
+    </div>
+</div>
+

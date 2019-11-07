@@ -1,0 +1,143 @@
+﻿@using WebUI.Models
+@model TourListViewModel
+
+@{
+    ViewBag.Title = "Контент";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+<div class="col-md-8">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Назва</th>
+                <th scope="col">Формат</th>
+                <th scope="col">Місто</th>
+                <th scope="col">Ціна</th>
+                <th scope="col">Дії</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tour in Model.Tours)
+            {
+            <tr>
+                <th scope="row">@tour.TourId</th>
+                <td>@tour.Name</td>
+                <td>
+                    @Html.RouteLink(tour.Format.FormatName, new
+                       {
+                           controller = "AdminTour",
+                           action = "List",
+                           format = @tour.Format.FormatId
+                       })
+                </td>
+                <td>@tour.Type</td>
+                <td>@tour.Price</td>
+                <td>
+                    @Html.RouteLink("Оновити",
+                    new
+                    {
+                        controller = "AdminTour",
+                        action = "Edit",
+                        tourId = tour.TourId
+                    }, new
+                    {
+                        @class = "btn btn-sm btn-outline-warning"
+                    })
+                    @Html.RouteLink("Видалити",
+                    new
+                    {
+                        controller = "AdminTour",
+                        action = "Remove",
+                        tourId = tour.TourId
+                    }, new
+                    {
+                        @class = "btn btn-sm btn-outline-danger"
+                    })
+                </td>
+            </tr>
+            }
+            <tr>
+                <td class="text-right" colspan="5">Кількість контенту:</td>
+                <td>@Model.Tours.Count()</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    @Html.RouteLink("Додати",
+                new
+                {
+                    controller = "AdminTour",
+                    action = "Add"
+                }, new
+                {
+                    @class = "btn btn-sm btn-outline-success"
+                })
+</div>
+
+<div class="col-md-4">
+    <div class="card" ">
+        <div class="card-header">
+            Пошук
+        </div>
+        <div class="card-body">
+            <form action="/AdminTour/List">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Ваш запит" name="query">
+                </div>
+            </form>
+        </div>
+
+    </div>
+    </br>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success">@Html.ActionLink("Всі формати", "List", "AdminTour")</li>
+
+        @foreach (var format in Model.Formats)
+        {
+            if (Model.CurentFormat == @format.FormatId)
+            {
+                <li class="list-group-item active">@format.FormatName</li>
+            }
+            else
+            {
+                <li class="list-group-item">
+                    @Html.RouteLink(@format.FormatName, new
+                       {
+                           controller = "AdminTour",
+                           action = "List",
+                           format = @format.FormatId
+                       })
+                </li>
+            }
+
+        }
+    </ul>
+    </br>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success">@Html.ActionLink("Всі міста", "List", "AdminTour")</li>
+
+        @foreach (var type in Model.Types)
+        {
+            if (Model.CurentType == type)
+            {
+                <li class="list-group-item active">@type</li>
+            }
+            else
+            {
+                <li class="list-group-item">
+                    @Html.RouteLink(type, new
+                       {
+                           controller = "AdminTour",
+                           action = "List",
+                           type = type
+                       })
+                </li>
+            }
+
+        }
+    </ul>
+</div>
+
+

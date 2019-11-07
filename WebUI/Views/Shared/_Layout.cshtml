@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-grid.min.css" rel="stylesheet" />
+
+    <link href="~/Content/bootstrap-reboot.min.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            /* Margin bottom by footer height */
+            margin-bottom: 60px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            /* Set the fixed height of the footer here */
+            height: 60px;
+            line-height: 60px; /* Vertically center the text there */
+            background-color: #f5f5f5;
+        }
+
+
+        /* Custom page CSS
+-------------------------------------------------- */
+        /* Not required for template or sticky footer method. */
+
+        body > .container {
+            padding: 60px 15px 0;
+        }
+
+        .footer > .container {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        code {
+            font-size: 80%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="/">TravelAgency</a>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto"></ul>
+                <div class="form-inline mt-2 mt-md-0">
+                    @Html.Action("Summary", "Cart")
+                    _
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        @Html.RouteLink("Вийти",
+                            new
+                            {
+                                controller = "User",
+                                action = "SignOut"
+                            }, new
+                            {
+                                @class = "btn btn-sm btn-outline-success"
+                            })
+                    }
+                    else
+                    {
+                        @Html.RouteLink("Ввійти",
+                            new
+                            {
+                                controller = "User",
+                                action = "Login"
+                            }, new
+                            {
+                                @class = "btn btn-sm btn-outline-success"
+                            })
+                    }
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+        <br>
+        <div class="row">
+            <div class="col-md-8">
+                @if (TempData["message"] != null)
+                {
+                    <div class="alert alert-success">@TempData["message"]</div>
+                }
+
+                @if (TempData["err-message"] != null)
+                {
+                    <div class="alert alert-danger">@TempData["err-message"]</div>
+                }
+                @RenderBody()
+            </div>
+            <div class="col-md-4">
+                @Html.Action("Menu", "Nav")
+
+            </div>
+        </div>
+
+
+    </main>
+
+    <br>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+
+</body>
+</html>

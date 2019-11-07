@@ -1,0 +1,61 @@
+﻿@model WebUI.Models.CartIndexViewModel
+
+@{
+    ViewBag.Title = "TravelAgency: Ваші замовлення";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<br>
+<table id="cartTable" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Кількість</th>
+            <th>Назва</th>
+            <th class="text-right">Ціна</th>
+            <th class="text-right">Сума</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var line in Model.Cart.Lines)
+        {
+        <tr>
+            <td class="text-center">@line.Quantity</td>
+            <td class="text-left">@line.Tour.Name - @line.Tour.Format.FormatName</td>
+            <td class="text-right">@line.Tour.Price.ToString("# грн")</td>
+            <td class="text-right">@((line.Quantity * line.Tour.Price).ToString("# грн"))</td>
+            <td>
+                @using (Html.BeginForm("RemoveFromCart", "Cart"))
+                {
+                    @Html.Hidden("TourId", line.Tour.TourId)
+                    @Html.HiddenFor(x => x.ReturnUrl)
+                    <input class="btn btn-sm btn-outline-danger" type="submit" value="Видалити" />
+                }
+            </td>
+        </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3" class="text-right">Загальна вартість:</td>
+            <td colspan="2" class="text-right">
+                @Model.Cart.ComputeTotalValue().ToString("# грн")
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+<div class="text-center">
+    <a class="btn btn-primary" href="@Model.ReturnUrl">Продовжити покупки</a>
+    @Html.RouteLink("Замовити",
+                        new
+                        {
+                            controller = "Cart",
+                            action = "Order",
+                            sum = Model.Cart.ComputeTotalValue()
+                        }, new
+                        {
+                            @class = "btn btn-primary"
+                        })
+</div>

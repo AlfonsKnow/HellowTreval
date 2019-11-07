@@ -1,0 +1,15 @@
+﻿@model Domain.Entities.Cart
+
+<div class="navbar-text navbar-right">
+    <b>Ваші замовлення:</b>
+    @Model.Lines.Sum(x => x.Quantity),
+    @Model.ComputeTotalValue().ToString("# грн")
+    &nbsp;&nbsp;
+</div>
+
+<div class="navbar-right">
+    @Html.ActionLink("Замовити", "Index", "Cart",
+    new { returnUrl = Request.Url.PathAndQuery },
+    new { @class = "btn btn-sm btn-outline-success" })
+</div>
+

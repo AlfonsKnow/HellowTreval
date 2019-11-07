@@ -1,0 +1,98 @@
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\Domain.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\Domain.pdb
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.Helpers.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.Mvc.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.Razor.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.WebPages.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.WebPages.Razor.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.Helpers.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.Mvc.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.Razor.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.WebPages.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\System.Web.WebPages.Razor.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\obj\Debug\Domain.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\obj\Debug\Domain.pdb
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\Domain.dll.config
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\EntityFramework.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\EntityFramework.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\Domain.dll.config
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\Domain.dll
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\Domain.pdb
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\EntityFramework.dll
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.Helpers.dll
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.Razor.dll
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.WebPages.dll
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\EntityFramework.xml
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.Helpers.xml
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.Mvc.xml
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.Razor.xml
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.WebPages.xml
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\obj\Debug\Domain.dll
+C:\Users\bohdan\Downloads\BookStore\BookStore — Part1\Domain\obj\Debug\Domain.pdb
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\Domain.dll.config
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\Domain.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\Domain.pdb
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\EntityFramework.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.Helpers.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.Razor.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.WebPages.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\EntityFramework.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.Helpers.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.Mvc.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.Razor.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.WebPages.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\obj\Debug\Domain.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\Domain\obj\Debug\Domain.pdb
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\Domain.dll.config
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\Domain.dll
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\Domain.pdb
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\EntityFramework.dll
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.Helpers.dll
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.Razor.dll
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.WebPages.dll
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\EntityFramework.xml
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.Helpers.xml
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.Mvc.xml
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.Razor.xml
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.WebPages.xml
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\obj\Debug\Domain.dll
+C:\Users\ostap\Desktop\TravelAgency-master\TravelAgency-master\Domain\obj\Debug\Domain.pdb

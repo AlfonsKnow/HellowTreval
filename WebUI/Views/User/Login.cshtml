@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Ввійти";
+}
+
+<div class="panel">
+    <div class="panel-heading">
+        <h3>Авторизація</h3>
+    </div>
+
+    <form method="post">
+        <input name="ReturnUrl" type="hidden" value="@TempData["href"]">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Логін</label>
+            <input name="UserName" required type="text" class="form-control" placeholder="Введіть логін">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Пароль</label>
+            <input name="UserPassword" required type="password" class="form-control" placeholder="Введіть пароль">
+        </div>
+        <button type="submit" class="btn btn-primary">Ввійти</button>
+    </form>
+</div>
+

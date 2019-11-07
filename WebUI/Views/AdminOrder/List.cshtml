@@ -1,0 +1,72 @@
+﻿@using WebUI.Models
+@model OrderListViewModel
+
+@{
+    ViewBag.Title = "Формат";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-8">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Почта</th>
+                <th scope="col">Піб</th>
+                <th scope="col">Ціна</th>
+                <th scope="col">Дії</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model.Orders)
+            {
+            <tr>
+                <th scope="row">@order.OrderId</th>
+                <td>
+                    @order.User.UserMail
+                </td>
+                <td>
+                    @order.User.UserName
+                </td>
+                <td>
+                    @order.Sum
+                </td>
+                <td>
+                    @Html.RouteLink("Видалити",
+                    new
+                    {
+                        controller = "AdminOrder",
+                        action = "Remove",
+                        orderId = order.OrderId
+                    }, new
+                    {
+                        @class = "btn btn-sm btn-outline-danger"
+                    })
+                </td>
+            </tr>
+            }
+            <tr>
+                <td class="text-right" colspan="4">Кількість заамовлень:</td>
+                <td>@Model.Orders.Count()</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<div class="col-md-4">
+    <div class="card">
+        <div class="card-header">
+            Пошук
+        </div>
+        <div class="card-body">
+            <form action="/AdminOrder/List">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Номер замовлення" name="query">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+

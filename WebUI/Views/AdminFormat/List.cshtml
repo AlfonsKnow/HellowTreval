@@ -1,0 +1,94 @@
+﻿
+@using WebUI.Models
+@model FormatListViewModel
+
+@{
+    ViewBag.Title = "Формат";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-8">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Назва</th>
+                <th scope="col">Тури</th>
+                <th scope="col">Дії</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var format in Model.Formats)
+            {
+                <tr>
+                    <th scope="row">@format.FormatId</th>
+                    <td>
+                        @format.FormatName
+                    </td>
+                    <td>
+                        @Html.RouteLink(@format.Tours.Count().ToString(), new
+                           {
+                               controller = "AdminTour",
+                               action = "List",
+                               format = @format.FormatId
+                           }
+                        )
+                    </td>
+                    <td>
+                        @Html.RouteLink("Оновити",
+                        new
+                        {
+                            controller = "AdminFormat",
+                            action = "Edit",
+                            formatId = format.FormatId
+                        }, new
+                        {
+                            @class = "btn btn-sm btn-outline-warning"
+                        })
+                        @Html.RouteLink("Видалити",
+                        new
+                        {
+                            controller = "AdminFormat",
+                            action = "Remove",
+                            formatId = format.FormatId
+                        }, new
+                        {
+                            @class = "btn btn-sm btn-outline-danger"
+                        })
+                    </td>
+                </tr>
+            }
+            <tr>
+                <td class="text-right" colspan="3">Кількість доступних міст:</td>
+                <td>@Model.Formats.Count()</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    @Html.RouteLink("Додати",
+                new
+                {
+                    controller = "AdminFormat",
+                    action = "Add"
+                }, new
+                {
+                    @class = "btn btn-sm btn-outline-success"
+                })
+
+</div>
+
+<div class="col-md-4">
+    <div class="card">
+        <div class="card-header">
+            Пошук
+        </div>
+        <div class="card-body">
+            <form action="/AdminFormat/List">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Ваш запит" name="query">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>

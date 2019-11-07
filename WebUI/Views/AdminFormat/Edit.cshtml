@@ -1,0 +1,38 @@
+﻿@model Domain.Entities.Format
+
+@{
+    ViewBag.Title = "Змінити";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="panel">
+    <div class="panel-heading">
+        <h3>Оновлення формату "@Model.FormatName #@Model.FormatId"</h3>
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        <div class="panel-body">
+            @Html.HiddenFor(m => m.FormatId)
+            @foreach (var property in ViewData.ModelMetadata.Properties)
+            {
+                if (property.PropertyName != "FormatId" && property.PropertyName != "Tours")
+                {
+                    <div class="form-group">
+                        <label>@(property.DisplayName ?? property.PropertyName)</label>
+                        @if (property.PropertyName == "FormatName")
+                        {
+                            @Html.TextBox(property.PropertyName, null, new { @class = "form-control" })
+                        }
+                        @Html.ValidationMessage(property.PropertyName)
+                    </div>
+                }
+            }
+        </div>
+
+        <div class="panel-footer">
+            <input type="submit" value="Зберегти" class="btn btn-outline-success" />
+            @Html.ActionLink("Відміна", "List", null, new { @class = "btn btn-outline-warning" })
+        </div>
+    }
+</div>

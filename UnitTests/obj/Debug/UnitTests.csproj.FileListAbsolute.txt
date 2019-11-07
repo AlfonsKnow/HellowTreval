@@ -1,0 +1,72 @@
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\UnitTests.dll.config
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\UnitTests.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\UnitTests.pdb
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\Domain.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\Moq.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\Ninject.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\Ninject.Web.Common.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\Ninject.Web.Mvc.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.Helpers.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.Mvc.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.Razor.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.WebPages.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.WebPages.Razor.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\WebActivatorEx.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\WebUI.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\Domain.pdb
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\WebUI.pdb
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\Moq.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\Ninject.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\Ninject.Web.Common.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\Ninject.Web.Mvc.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.Helpers.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.Mvc.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.Razor.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.WebPages.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\bin\Debug\System.Web.WebPages.Razor.xml
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\obj\Debug\UnitTests.dll
+c:\users\admin\documents\visual studio 2013\Projects\BookStore\UnitTests\obj\Debug\UnitTests.pdb
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\UnitTests.dll.config
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Domain.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Moq.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Ninject.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Ninject.Web.Common.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Ninject.Web.Mvc.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.Helpers.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.Mvc.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.Razor.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.WebPages.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\WebActivatorEx.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\WebUI.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Domain.pdb
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Domain.dll.config
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\WebUI.pdb
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\WebUI.dll.config
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Moq.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Ninject.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Ninject.Web.Common.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\Ninject.Web.Mvc.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.Helpers.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.Mvc.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.Razor.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.WebPages.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\EntityFramework.xml
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\obj\Debug\UnitTests.csprojAssemblyReference.cache
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\obj\Debug\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\obj\Debug\UnitTests.csproj.CopyComplete
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\bohdan\Downloads\BookStore\TravelAgency\UnitTests\obj\Debug\UnitTests.pdb
